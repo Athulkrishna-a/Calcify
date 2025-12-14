@@ -1,0 +1,163 @@
+
+@font-face {
+  font-family: 'DancingScript';
+  src: url('./assets/fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DSDigital';
+  src: url('./assets/fonts/DS-DIGI.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DSDigitalBold';
+  src: url('./assets/fonts/DS-DIGIB.TTF') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lobster';
+  src: url('./assets/fonts/Lobster-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sekuya';
+  src: url('./assets/fonts/Sekuya-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+body {
+  margin: 0;
+  background-color: rgb(248, 237, 221);
+}
+
+.App {
+  min-height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;  
+}
+
+
+/* Dancing Script */
+
+
+ .App h1{
+  font-size: 53px;
+  font-family: 'Lobster' ,monospace;
+}
+
+
+.container {
+  background: #1eb6f1;
+  width: 320px;
+  padding: 20px;
+  border-radius: 25px 25px 55px 55px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  
+}
+.screen {
+  background: #ffffffc3;
+  border: rgb(45, 45, 45) solid 2px;
+  outline: #043c43 solid 2px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.screen input {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  font-size: 32px;
+  text-align: right;
+  font-family: 'DSDigital', monospace;
+  background: transparent;
+}
+.btn-full {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.brand{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+}
+.brand p{
+  font-family: 'Sekuya', monospace;
+  font-size: 17px;
+  color: #000000;
+}
+button {
+  height: 55px;
+  border-radius: 12px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Sekuya', monospace;
+  cursor: pointer;
+  background: #ffffff;
+  color: #000000;
+  box-shadow: inset 0 -4px rgba(0,0,0,0.15);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: inset 0 -2px rgba(0,0,0,0.15);
+}
+button[value="+"],
+button[value="-"],
+button[value="*"],
+button[value="/"],
+button[value="%"] {
+  background: #ff923e;
+  color: #050505;
+}
+button[value="CE"],
+button[value="AC"]{
+  background: #fa2b24;
+  color: #000000;
+}
+
+button[value="("],
+button[value=")"]{
+  background: #9ef171;
+  color: #090909;
+}
+.btn-containerequal {
+  margin-top: 6px;
+}
+
+.btn-containerequal button {
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+  background: #b856f1;
+  color: #ffffff;
+  font-size: 28px;
+}
