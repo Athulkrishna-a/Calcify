@@ -31,18 +31,12 @@ npm start
 
 #### Open http://localhost:3000 in your browser.
 
-### File Structure
+## File Structure
+- `Calculate.js` – Main calculator component
+- `App.js` – Root component
+- `index.js` – Application entry point
+- `App.css` – Styling for the calculator UI
 
-Calculate.js – Main calculator component
-
-App.js – Root component
-
-index.js – Application entry point
-
-App.css – Styling for the calculator UI
-
-### Notes
-
-The calculator uses JavaScript eval() for expression evaluation. This is acceptable for a controlled learning project but not recommended for production applications.
-
-Built to practice React state management, event handling, and component-based UI design.
+## Notes
+- The calculator uses JavaScript `eval()` for expression evaluation. This is acceptable for a controlled learning project but **not recommended for production applications**.
+- Built to practice React state management, event handling, and component-based UI design.
