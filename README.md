@@ -44,4 +44,4 @@ npm start
 ## Screenshot
 
 ![Calcify Screenshot](image.png)
-![Calcify Screenshot](Screenshot 2025-12-16 195642.png)
+
