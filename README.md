@@ -40,3 +40,8 @@ npm start
 ## Notes
 - The calculator uses JavaScript `eval()` for expression evaluation. This is acceptable for a controlled learning project but **not recommended for production applications**.
 - Built to practice React state management, event handling, and component-based UI design.
+
+## Screenshot
+
+![Calcify Screenshot](image.png)
+![Calcify Screenshot](Screenshot 2025-12-16 195642.png)
